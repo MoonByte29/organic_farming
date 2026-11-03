@@ -3,7 +3,7 @@ import { FarmerProfile } from '../types';
 export const FARMERS: FarmerProfile[] = [
   {
     id: 'farmer-1',
-    name: 'Devender & Sunita Bishnoi',
+    name: 'Devender & Sunita',
     region: 'Alwar Foothills',
     state: 'Rajasthan',
     crop: 'Indigenous Yellow Mustard & Sesame',

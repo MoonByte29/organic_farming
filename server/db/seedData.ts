@@ -12,7 +12,7 @@ export const SEED_PRODUCTS = [
     reviewsCount: 142,
     image: '/src/assets/images/oil_cold_pressed_1793650249541.jpg',
     origin: 'Alwar, Rajasthan',
-    farmer: 'Devender & Sunita Bishnoi',
+    farmer: 'Devender & Sunita',
     harvestSeason: 'Rabi Harvest 2025',
     batchId: 'MM-WPO-25B',
     certifications: ['India Organic', 'Jaivik Bharat', 'Non-GMO'],
@@ -271,7 +271,7 @@ export const SEED_PRODUCTS = [
 export const SEED_FARMERS = [
   {
     id: 'farmer-1',
-    name: 'Devender & Sunita Bishnoi',
+    name: 'Devender & Sunita',
     region: 'Alwar Foothills',
     state: 'Rajasthan',
     crop: 'Indigenous Yellow Mustard & Sesame',
