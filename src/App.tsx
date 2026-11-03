@@ -15,9 +15,9 @@ import { ProductDetailModal } from './components/ProductDetailModal';
 import { CartDrawer } from './components/CartDrawer';
 import { SearchDialog } from './components/SearchDialog';
 import { AuthDialog } from './components/AuthDialog';
-import { BrandMiniKitModal } from './components/BrandMiniKitModal';
-import { DesignNoteModal } from './components/DesignNoteModal';
-import { MernStatusModal } from './components/MernStatusModal';
+// import { BrandMiniKitModal } from './components/BrandMiniKitModal';
+// import { DesignNoteModal } from './components/DesignNoteModal';
+// import { MernStatusModal } from './components/MernStatusModal';
 import { OrderTracking } from './components/OrderTracking';
 import { Footer } from './components/Footer';
 import { Sparkles, X } from 'lucide-react';
@@ -240,22 +240,22 @@ export default function App() {
       />
 
       {/* Assignment Mandatory Deliverable B: Brand Mini-Kit Modal */}
-      <BrandMiniKitModal
+      {/* <BrandMiniKitModal
         isOpen={miniKitOpen}
         onClose={() => setMiniKitOpen(false)}
-      />
+      /> */}
 
       {/* Assignment Mandatory Deliverable C: 1-Page Design Note Modal */}
-      <DesignNoteModal
+      {/* <DesignNoteModal
         isOpen={designNoteOpen}
         onClose={() => setDesignNoteOpen(false)}
-      />
+      /> */}
 
       {/* Live MERN Stack Backend Diagnostics Modal */}
-      <MernStatusModal
+      {/* <MernStatusModal
         isOpen={mernStatusOpen}
         onClose={() => setMernStatusOpen(false)}
-      />
+      /> */}
 
       {/* Live Order Tracking with Milestones */}
       <OrderTracking
