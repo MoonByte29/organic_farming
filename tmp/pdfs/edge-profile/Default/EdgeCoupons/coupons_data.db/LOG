@@ -1,0 +1,5 @@
+2026/11/03-15:45:28.252 40e4 Creating DB E:\Down\organic_farming\tmp\pdfs\edge-profile\Default\EdgeCoupons/coupons_data.db since it was missing.
+2026/11/03-15:45:28.266 40e4 Reusing MANIFEST E:\Down\organic_farming\tmp\pdfs\edge-profile\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/11/03-15:45:30.047 4fb8 Level-0 table #5: started
+2026/11/03-15:45:30.055 4fb8 Level-0 table #5: 683284 bytes OK
+2026/11/03-15:45:30.059 4fb8 Delete type=0 #3

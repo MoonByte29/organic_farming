@@ -1,0 +1,332 @@
+export const PRODUCTS = [
+	{
+		id: "mm-oil-01",
+		name: "Wood-Pressed Mustard Oil",
+		subtitle: "Mara Chekku extracted yellow mustard seed",
+		category: "oils",
+		categoryLabel: "Cold-Pressed Oils",
+		price: 380,
+		originalPrice: 420,
+		unit: "500 ml",
+		rating: 4.9,
+		reviewsCount: 142,
+		image: "/src/assets/images/oil_cold_pressed_1793650249541.jpg",
+		origin: "Alwar, Rajasthan",
+		farmer: "Devender & Sunita Bishnoi",
+		harvestSeason: "Rabi Harvest 2025",
+		batchId: "MM-WPO-25B",
+		certifications: [
+			"India Organic",
+			"Jaivik Bharat",
+			"Non-GMO"
+		],
+		description: "Cold-pressed in slow-moving wooden Kolhus (Mara Chekku) below 38°C to retain natural pungency, essential allyl isothiocyanate, and heart-healthy monounsaturated fatty acids. Never refined, unbleached, and naturally settled.",
+		benefits: [
+			"Rich in natural omega-3 and alpha-linolenic acids",
+			"Traditional kacchi ghani cold-press below 38°C preserves live enzymes",
+			"Naturally aromatic with pungent golden mustard hue",
+			"Zero mineral oils, chemical preservatives, or hexanes"
+		],
+		tasteNotes: "Bold, nutty, traditional mustard warmth with a clean peppery finish",
+		process: "Sun-dried native yellow mustard seeds crushed in seasoned Vaagai wood pestles over 45 minutes.",
+		nutrition: {
+			calories: "124 kcal per 14ml",
+			keyNutrient: "Omega-3 ALA: 1.1g",
+			pureExtraction: "Single-pressed at 32°C"
+		},
+		inStock: true,
+		featured: true
+	},
+	{
+		id: "mm-honey-01",
+		name: "Wild Forest Raw Honey",
+		subtitle: "Multi-floral nectar from Western Ghats canopies",
+		category: "honey",
+		categoryLabel: "Forest Honey",
+		price: 540,
+		originalPrice: 590,
+		unit: "350 g",
+		rating: 5,
+		reviewsCount: 198,
+		image: "/src/assets/images/honey_raw_forest_1793650250709.jpg",
+		origin: "Wayanad, Kerala",
+		farmer: "Kattunayakan Indigenous Foragers",
+		harvestSeason: "Post-Monsoon Blossom 2025",
+		batchId: "MM-WFH-44G",
+		certifications: [
+			"Fair Wild",
+			"India Organic",
+			"Raw & Unpasteurized"
+		],
+		description: "Harvested ethically from wild Apis dorsata honeycombs high in the moist evergreen canopies of Wayanad. Unheated, micro-filtered through muslin cloth to preserve natural pollen, bee propolis, and live antioxidants.",
+		benefits: [
+			"100% Raw and unheated — preserves active floral enzymes",
+			"Wild multi-floral nectar with medicinal bio-flavonoids",
+			"Ethically gathered without harming forest bee colonies",
+			"Bottled in UV-protective amber glass"
+		],
+		tasteNotes: "Complex caramel notes, forest wildflower sweetness, gentle herbal undertones",
+		process: "Crush-free gravity draining through natural organic muslin; zero sugar feeding or heating.",
+		nutrition: {
+			calories: "64 kcal per tbsp",
+			keyNutrient: "Bioactive Pollen: 3.2%",
+			pureExtraction: "Raw gravity-strained"
+		},
+		inStock: true,
+		featured: true
+	},
+	{
+		id: "mm-millets-01",
+		name: "Heirloom Foxtail Millet (Kangni)",
+		subtitle: "Ancient climate-resilient unpolished grain",
+		category: "millets",
+		categoryLabel: "Ancient Millets",
+		price: 210,
+		originalPrice: 240,
+		unit: "1 kg",
+		rating: 4.8,
+		reviewsCount: 89,
+		image: "/src/assets/images/millets_heritage_grains_1793650250177.jpg",
+		origin: "Bundelkhand, Madhya Pradesh",
+		farmer: "Shanti Devi Farmer Producer Co.",
+		harvestSeason: "Kharif Harvest 2025",
+		batchId: "MM-HAG-12F",
+		certifications: [
+			"India Organic",
+			"Jaivik Bharat",
+			"Naturally Gluten-Free"
+		],
+		description: "Naturally drought-hardy heirloom foxtail millets grown using traditional dryland rainfed methods. Only dehusked once to preserve 100% of the nutrient-dense fibrous bran layer and germ.",
+		benefits: [
+			"Low Glycemic Index (GI 54) for sustained blood sugar stability",
+			"High dietary fiber (8g per 100g) aids digestive microbiome",
+			"Rich in bioavailable iron, magnesium, and dietary zinc",
+			"Grown with 70% less water than white rice"
+		],
+		tasteNotes: "Earthy, subtly sweet, light fluffy texture when steamed or simmered",
+		process: "Traditional stone dehusking that retains natural golden pericarp and vitamin B matrix.",
+		nutrition: {
+			calories: "351 kcal per 100g",
+			keyNutrient: "Dietary Fiber: 8.0g",
+			pureExtraction: "Unpolished single-hull"
+		},
+		inStock: true,
+		featured: true
+	},
+	{
+		id: "mm-spices-01",
+		name: "Stone-Ground Lakadong Turmeric",
+		subtitle: "High-potency organic root with 7.4% Curcumin",
+		category: "spices",
+		categoryLabel: "Wild Spices",
+		price: 320,
+		originalPrice: 350,
+		unit: "200 g",
+		rating: 4.9,
+		reviewsCount: 165,
+		image: "/src/assets/images/spices_stone_ground_1793650251807.jpg",
+		origin: "Jaintia Hills, Meghalaya",
+		farmer: "Syntu Kshiar Women Collective",
+		harvestSeason: "Winter 2025",
+		batchId: "MM-LKT-09A",
+		certifications: [
+			"India Organic",
+			"Tested 7.4% Curcumin",
+			"Zero Lead/Chromate"
+		],
+		description: "Cultivated in the mineral-rich soils of Jaintia Hills, Meghalaya. Ground on watermill-driven stone chakkis at cold temperatures to protect the volatile essential oils and extraordinary 7.4% natural curcumin content.",
+		benefits: [
+			"Certified 7.4% Curcumin content (vs 2-3% in standard turmeric)",
+			"Stone-ground at low RPM to prevent thermal oxidation",
+			"Pure single-origin root; zero artificial color or starch fillers",
+			"Potent cellular anti-inflammatory and antioxidant tonic"
+		],
+		tasteNotes: "Intense earthy fragrance, deep golden-orange hue, warm aromatic kick",
+		process: "Sun-dried rhizomes stone-pulverized slowly without thermal friction.",
+		nutrition: {
+			calories: "29 kcal per 10g",
+			keyNutrient: "Curcuminoids: 7.4%",
+			pureExtraction: "Cold stone-pulverized"
+		},
+		inStock: true,
+		featured: true
+	},
+	{
+		id: "mm-ceramics-01",
+		name: "Speckled Stoneware Chai Mug",
+		subtitle: "Hand-thrown studio pottery with botanical leaf motif",
+		category: "ceramics",
+		categoryLabel: "Artisanal Tableware",
+		price: 680,
+		originalPrice: 750,
+		unit: "320 ml",
+		rating: 5,
+		reviewsCount: 112,
+		image: "/src/assets/images/hero_ceramics_still_life_1793651013505.jpg",
+		origin: "Khurja & Pondicherry Studio",
+		farmer: "Master Potter Anand & Collective",
+		harvestSeason: "Kiln Batch Oct 2025",
+		batchId: "MM-STN-MUG01",
+		certifications: [
+			"Lead-Free Glaze",
+			"Food Safe",
+			"Microwave Safe"
+		],
+		description: "Each mug is individually wheel-thrown from local iron-rich stoneware clay, hand-painted with an indigenous monsoon leaf brushwork, and high-fired at 1260°C for exceptional durability and tactile warmth.",
+		benefits: [
+			"High-fired stoneware retains beverage warmth longer",
+			"Ergonomic looped handle designed for mindful morning sipping",
+			"Food-safe, non-toxic, non-porous mineral glaze",
+			"Every piece bears slight organic variations of the potter’s hand"
+		],
+		tasteNotes: "Elevates everyday chai, filter coffee, or herbal infusions into a quiet ritual",
+		process: "Hand-shaped on potter’s wheel, bisque fired, glazed with natural wood-ash pigments, fired at Cone 6.",
+		nutrition: {
+			calories: "N/A",
+			keyNutrient: "Thermal retention clay",
+			pureExtraction: "1260°C High-Fire"
+		},
+		inStock: true,
+		featured: true
+	},
+	{
+		id: "mm-oil-02",
+		name: "Cold-Pressed Virgin Sesame Oil",
+		subtitle: "Slow wood-churned with organic palm jaggery",
+		category: "oils",
+		categoryLabel: "Cold-Pressed Oils",
+		price: 460,
+		originalPrice: 495,
+		unit: "500 ml",
+		rating: 4.8,
+		reviewsCount: 76,
+		image: "/src/assets/images/oil_cold_pressed_1793650249541.jpg",
+		origin: "Erode, Tamil Nadu",
+		farmer: "Velliangiri Organic Growers",
+		harvestSeason: "Summer Harvest 2025",
+		batchId: "MM-VSO-18",
+		certifications: ["India Organic", "Jaivik Bharat"],
+		description: "Extracted from black sesame seeds using indigenous Vaagai wood presses with a hint of natural palm jaggery to moderate bitterness, as described in classical Ayurvedic texts.",
+		benefits: [
+			"Rich in sesamol and sesamolin — natural potent antioxidants",
+			"High smoke point suitable for traditional tempering and sauteing",
+			"Nourishing for bone density and joint lubrication"
+		],
+		tasteNotes: "Deep nutty fragrance with a delicate caramelized sesame sweetness",
+		process: "Wood-churned extraction with heirloom unrefined palm jaggery.",
+		nutrition: {
+			calories: "120 kcal per 14ml",
+			keyNutrient: "Sesamol Antioxidants",
+			pureExtraction: "Cold wood-pressed"
+		},
+		inStock: true
+	},
+	{
+		id: "mm-spices-02",
+		name: "Whole Tellicherry Black Peppercorns",
+		subtitle: "Extra-bold TGSEB grade vine-ripened berries",
+		category: "spices",
+		categoryLabel: "Wild Spices",
+		price: 290,
+		originalPrice: 330,
+		unit: "150 g",
+		rating: 4.9,
+		reviewsCount: 94,
+		image: "/src/assets/images/spices_stone_ground_1793650251807.jpg",
+		origin: "Coorg, Karnataka",
+		farmer: "Gopalan Plantation Collective",
+		harvestSeason: "Spring 2025",
+		batchId: "MM-TBP-08",
+		certifications: ["India Organic", "Fair Trade Certified"],
+		description: "Vine-ripened until fully plump, hand-picked and sun-dried on bamboo mats in the misty Western Ghats. Extra-bold 4.75mm berries offering unmatched piperine intensity and citrus florals.",
+		benefits: [
+			"Contains 4.8% piperine for optimal turmeric curcumin absorption",
+			"Whole berries lock in volatile essential aromatic terpenes",
+			"Grown in biodiverse shade under native silver oak trees"
+		],
+		tasteNotes: "Pungent, woodsy heat balanced by crisp eucalyptus and citrus aromas",
+		process: "Shade-grown, hand-harvested at peak maturity, sun-cured naturally.",
+		nutrition: {
+			calories: "17 kcal per tsp",
+			keyNutrient: "Piperine: 4.8%",
+			pureExtraction: "Sun-dried whole"
+		},
+		inStock: true
+	},
+	{
+		id: "mm-hampers-01",
+		name: "The Monsoon Harvest Gift Box",
+		subtitle: "Curated artisanal pantry staples & ceramic keepsake",
+		category: "hampers",
+		categoryLabel: "Festive Gift Hampers",
+		price: 2200,
+		originalPrice: 2450,
+		unit: "Curated Hamper",
+		rating: 5,
+		reviewsCount: 64,
+		image: "/src/assets/images/packaging_label_mockup_1793650251877.jpg",
+		origin: "Hand-assembled in Bangalore",
+		farmer: "Multi-cooperative Artisan Collaboration",
+		harvestSeason: "Festive Edition 2025",
+		batchId: "MM-BOX-HARVEST",
+		certifications: [
+			"Zero-Plastic Box",
+			"100% Organic Contents",
+			"Handmade Packaging"
+		],
+		description: "Our signature gifting collection: Wild Forest Honey (350g), Wood-Pressed Mustard Oil (500ml), Lakadong Turmeric (200g), and our hand-thrown Speckled Ceramic Chai Mug, packaged in an unbleached handmade kraft chest tied with natural jute string and dried botanicals.",
+		benefits: [
+			"Thoughtful, healthy corporate and festive celebration gift",
+			"Includes handwritten seed-paper gift card that blooms into marigolds",
+			"Supports four separate rural farmer and artisan communities"
+		],
+		tasteNotes: "The complete sensory experience of an organic Indian monsoon kitchen",
+		process: "Curated with zero single-use plastics in biodegradable reclaimed fiber boxes.",
+		nutrition: {
+			calories: "Varies",
+			keyNutrient: "Four Artisanal Items",
+			pureExtraction: "Artisanal Ensemble"
+		},
+		inStock: true,
+		featured: true
+	}
+];
+export const CATEGORIES = [
+	{
+		id: "all",
+		label: "All Harvests & Wares",
+		count: 8
+	},
+	{
+		id: "oils",
+		label: "Cold-Pressed Oils",
+		count: 2
+	},
+	{
+		id: "honey",
+		label: "Wild Forest Honey",
+		count: 1
+	},
+	{
+		id: "millets",
+		label: "Ancient Millets & Grains",
+		count: 1
+	},
+	{
+		id: "spices",
+		label: "Stone-Ground Spices",
+		count: 2
+	},
+	{
+		id: "ceramics",
+		label: "Handcrafted Ceramics",
+		count: 1
+	},
+	{
+		id: "hampers",
+		label: "Curated Gift Hampers",
+		count: 1
+	}
+];
+
+//# sourceMappingURL=data:application/json;base64,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STtFQUFRLE9BQU87RUFBcUIsT0FBTztDQUFFO0NBQ25EO0VBQUUsSUFBSTtFQUFTLE9BQU87RUFBcUIsT0FBTztDQUFFO0NBQ3BEO0VBQUUsSUFBSTtFQUFXLE9BQU87RUFBNEIsT0FBTztDQUFFO0NBQzdEO0VBQUUsSUFBSTtFQUFVLE9BQU87RUFBdUIsT0FBTztDQUFFO0NBQ3ZEO0VBQUUsSUFBSTtFQUFZLE9BQU87RUFBd0IsT0FBTztDQUFFO0NBQzFEO0VBQUUsSUFBSTtFQUFXLE9BQU87RUFBd0IsT0FBTztDQUFFO0FBQzNEIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbInByb2R1Y3RzLnRzIl0sInZlcnNpb24iOjMsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFByb2R1Y3QgfSBmcm9tICcuLi90eXBlcyc7XG5cbmV4cG9ydCBjb25zdCBQUk9EVUNUUzogUHJvZHVjdFtdID0gW1xuICB7XG4gICAgaWQ6ICdtbS1vaWwtMDEnLFxuICAgIG5hbWU6ICdXb29kLVByZXNzZWQgTXVzdGFyZCBPaWwnLFxuICAgIHN1YnRpdGxlOiAnTWFyYSBDaGVra3UgZXh0cmFjdGVkIHllbGxvdyBtdXN0YXJkIHNlZWQnLFxuICAgIGNhdGVnb3J5OiAnb2lscycsXG4gICAgY2F0ZWdvcnlMYWJlbDogJ0NvbGQtUHJlc3NlZCBPaWxzJyxcbiAgICBwcmljZTogMzgwLFxuICAgIG9yaWdpbmFsUHJpY2U6IDQyMCxcbiAgICB1bml0OiAnNTAwIG1sJyxcbiAgICByYXRpbmc6IDQuOSxcbiAgICByZXZpZXdzQ291bnQ6IDE0MixcbiAgICBpbWFnZTogJy9zcmMvYXNzZXRzL2ltYWdlcy9vaWxfY29sZF9wcmVzc2VkXzE3OTM2NTAyNDk1NDEuanBnJyxcbiAgICBvcmlnaW46ICdBbHdhciwgUmFqYXN0aGFuJyxcbiAgICBmYXJtZXI6ICdEZXZlbmRlciAmIFN1bml0YSBCaXNobm9pJyxcbiAgICBoYXJ2ZXN0U2Vhc29uOiAnUmFiaSBIYXJ2ZXN0IDIwMjUnLFxuICAgIGJhdGNoSWQ6ICdNTS1XUE8tMjVCJyxcbiAgICBjZXJ0aWZpY2F0aW9uczogWydJbmRpYSBPcmdhbmljJywgJ0phaXZpayBCaGFyYXQnLCAnTm9uLUdNTyddLFxuICAgIGRlc2NyaXB0aW9uOiAnQ29sZC1wcmVzc2VkIGluIHNsb3ctbW92aW5nIHdvb2RlbiBLb2xodXMgKE1hcmEgQ2hla2t1KSBiZWxvdyAzOMKwQyB0byByZXRhaW4gbmF0dXJhbCBwdW5nZW5jeSwgZXNzZW50aWFsIGFsbHlsIGlzb3RoaW9jeWFuYXRlLCBhbmQgaGVhcnQtaGVhbHRoeSBtb25vdW5zYXR1cmF0ZWQgZmF0dHkgYWNpZHMuIE5ldmVyIHJlZmluZWQsIHVuYmxlYWNoZWQsIGFuZCBuYXR1cmFsbHkgc2V0dGxlZC4nLFxuICAgIGJlbmVmaXRzOiBbXG4gICAgICAnUmljaCBpbiBuYXR1cmFsIG9tZWdhLTMgYW5kIGFscGhhLWxpbm9sZW5pYyBhY2lkcycsXG4gICAgICAnVHJhZGl0aW9uYWwga2FjY2hpIGdoYW5pIGNvbGQtcHJlc3MgYmVsb3cgMzjCsEMgcHJlc2VydmVzIGxpdmUgZW56eW1lcycsXG4gICAgICAnTmF0dXJhbGx5IGFyb21hdGljIHdpdGggcHVuZ2VudCBnb2xkZW4gbXVzdGFyZCBodWUnLFxuICAgICAgJ1plcm8gbWluZXJhbCBvaWxzLCBjaGVtaWNhbCBwcmVzZXJ2YXRpdmVzLCBvciBoZXhhbmVzJ1xuICAgIF0sXG4gICAgdGFzdGVOb3RlczogJ0JvbGQsIG51dHR5LCB0cmFkaXRpb25hbCBtdXN0YXJkIHdhcm10aCB3aXRoIGEgY2xlYW4gcGVwcGVyeSBmaW5pc2gnLFxuICAgIHByb2Nlc3M6ICdTdW4tZHJpZWQgbmF0aXZlIHllbGxvdyBtdXN0YXJkIHNlZWRzIGNydXNoZWQgaW4gc2Vhc29uZWQgVmFhZ2FpIHdvb2QgcGVzdGxlcyBvdmVyIDQ1IG1pbnV0ZXMuJyxcbiAgICBudXRyaXRpb246IHtcbiAgICAgIGNhbG9yaWVzOiAnMTI0IGtjYWwgcGVyIDE0bWwnLFxuICAgICAga2V5TnV0cmllbnQ6ICdPbWVnYS0zIEFMQTogMS4xZycsXG4gICAgICBwdXJlRXh0cmFjdGlvbjogJ1NpbmdsZS1wcmVzc2VkIGF0IDMywrBDJ1xuICAgIH0sXG4gICAgaW5TdG9jazogdHJ1ZSxcbiAgICBmZWF0dXJlZDogdHJ1ZVxuICB9LFxuICB7XG4gICAgaWQ6ICdtbS1ob25leS0wMScsXG4gICAgbmFtZTogJ1dpbGQgRm9yZXN0IFJhdyBIb25leScsXG4gICAgc3VidGl0bGU6ICdNdWx0aS1mbG9yYWwgbmVjdGFyIGZyb20gV2VzdGVybiBHaGF0cyBjYW5vcGllcycsXG4gICAgY2F0ZWdvcnk6ICdob25leScsXG4gICAgY2F0ZWdvcnlMYWJlbDogJ0ZvcmVzdCBIb25leScsXG4gICAgcHJpY2U6IDU0MCxcbiAgICBvcmlnaW5hbFByaWNlOiA1OTAsXG4gICAgdW5pdDogJzM1MCBnJyxcbiAgICByYXRpbmc6IDUuMCxcbiAgICByZXZpZXdzQ291bnQ6IDE5OCxcbiAgICBpbWFnZTogJy9zcmMvYXNzZXRzL2ltYWdlcy9ob25leV9yYXdfZm9yZXN0XzE3OTM2NTAyNTA3MDkuanBnJyxcbiAgICBvcmlnaW46ICdXYXlhbmFkLCBLZXJhbGEnLFxuICAgIGZhcm1lcjogJ0thdHR1bmF5YWthbiBJbmRpZ2Vub3VzIEZvcmFnZXJzJyxcbiAgICBoYXJ2ZXN0U2Vhc29uOiAnUG9zdC1Nb25zb29uIEJsb3Nzb20gMjAyNScsXG4gICAgYmF0Y2hJZDogJ01NLVdGSC00NEcnLFxuICAgIGNlcnRpZmljYXRpb25zOiBbJ0ZhaXIgV2lsZCcsICdJbmRpYSBPcmdhbmljJywgJ1JhdyAmIFVucGFzdGV1cml6ZWQnXSxcbiAgICBkZXNjcmlwdGlvbjogJ0hhcnZlc3RlZCBldGhpY2FsbHkgZnJvbSB3aWxkIEFwaXMgZG9yc2F0YSBob25leWNvbWJzIGhpZ2ggaW4gdGhlIG1vaXN0IGV2ZXJncmVlbiBjYW5vcGllcyBvZiBXYXlhbmFkLiBVbmhlYXRlZCwgbWljcm8tZmlsdGVyZWQgdGhyb3VnaCBtdXNsaW4gY2xvdGggdG8gcHJlc2VydmUgbmF0dXJhbCBwb2xsZW4sIGJlZSBwcm9wb2xpcywgYW5kIGxpdmUgYW50aW94aWRhbnRzLicsXG4gICAgYmVuZWZpdHM6IFtcbiAgICAgICcxMDAlIFJhdyBhbmQgdW5oZWF0ZWQg4oCUIHByZXNlcnZlcyBhY3RpdmUgZmxvcmFsIGVuenltZXMnLFxuICAgICAgJ1dpbGQgbXVsdGktZmxvcmFsIG5lY3RhciB3aXRoIG1lZGljaW5hbCBiaW8tZmxhdm9ub2lkcycsXG4gICAgICAnRXRoaWNhbGx5IGdhdGhlcmVkIHdpdGhvdXQgaGFybWluZyBmb3Jlc3QgYmVlIGNvbG9uaWVzJyxcbiAgICAgICdCb3R0bGVkIGluIFVWLXByb3RlY3RpdmUgYW1iZXIgZ2xhc3MnXG4gICAgXSxcbiAgICB0YXN0ZU5vdGVzOiAnQ29tcGxleCBjYXJhbWVsIG5vdGVzLCBmb3Jlc3Qgd2lsZGZsb3dlciBzd2VldG5lc3MsIGdlbnRsZSBoZXJiYWwgdW5kZXJ0b25lcycsXG4gICAgcHJvY2VzczogJ0NydXNoLWZyZWUgZ3Jhdml0eSBkcmFpbmluZyB0aHJvdWdoIG5hdHVyYWwgb3JnYW5pYyBtdXNsaW47IHplcm8gc3VnYXIgZmVlZGluZyBvciBoZWF0aW5nLicsXG4gICAgbnV0cml0aW9uOiB7XG4gICAgICBjYWxvcmllczogJzY0IGtjYWwgcGVyIHRic3AnLFxuICAgICAga2V5TnV0cmllbnQ6ICdCaW9hY3RpdmUgUG9sbGVuOiAzLjIlJyxcbiAgICAgIHB1cmVFeHRyYWN0aW9uOiAnUmF3IGdyYXZpdHktc3RyYWluZWQnXG4gICAgfSxcbiAgICBpblN0b2NrOiB0cnVlLFxuICAgIGZlYXR1cmVkOiB0cnVlXG4gIH0sXG4gIHtcbiAgICBpZDogJ21tLW1pbGxldHMtMDEnLFxuICAgIG5hbWU6ICdIZWlybG9vbSBGb3h0YWlsIE1pbGxldCAoS2FuZ25pKScsXG4gICAgc3VidGl0bGU6ICdBbmNpZW50IGNsaW1hdGUtcmVzaWxpZW50IHVucG9saXNoZWQgZ3JhaW4nLFxuICAgIGNhdGVnb3J5OiAnbWlsbGV0cycsXG4gICAgY2F0ZWdvcnlMYWJlbDogJ0FuY2llbnQgTWlsbGV0cycsXG4gICAgcHJpY2U6IDIxMCxcbiAgICBvcmlnaW5hbFByaWNlOiAyNDAsXG4gICAgdW5pdDogJzEga2cnLFxuICAgIHJhdGluZzogNC44LFxuICAgIHJldmlld3NDb3VudDogODksXG4gICAgaW1hZ2U6ICcvc3JjL2Fzc2V0cy9pbWFnZXMvbWlsbGV0c19oZXJpdGFnZV9ncmFpbnNfMTc5MzY1MDI1MDE3Ny5qcGcnLFxuICAgIG9yaWdpbjogJ0J1bmRlbGtoYW5kLCBNYWRoeWEgUHJhZGVzaCcsXG4gICAgZmFybWVyOiAnU2hhbnRpIERldmkgRmFybWVyIFByb2R1Y2VyIENvLicsXG4gICAgaGFydmVzdFNlYXNvbjogJ0toYXJpZiBIYXJ2ZXN0IDIwMjUnLFxuICAgIGJhdGNoSWQ6ICdNTS1IQUctMTJGJyxcbiAgICBjZXJ0aWZpY2F0aW9uczogWydJbmRpYSBPcmdhbmljJywgJ0phaXZpayBCaGFyYXQnLCAnTmF0dXJhbGx5IEdsdXRlbi1GcmVlJ10sXG4gICAgZGVzY3JpcHRpb246ICdOYXR1cmFsbHkgZHJvdWdodC1oYXJkeSBoZWlybG9vbSBmb3h0YWlsIG1pbGxldHMgZ3Jvd24gdXNpbmcgdHJhZGl0aW9uYWwgZHJ5bGFuZCByYWluZmVkIG1ldGhvZHMuIE9ubHkgZGVodXNrZWQgb25jZSB0byBwcmVzZXJ2ZSAxMDAlIG9mIHRoZSBudXRyaWVudC1kZW5zZSBmaWJyb3VzIGJyYW4gbGF5ZXIgYW5kIGdlcm0uJyxcbiAgICBiZW5lZml0czogW1xuICAgICAgJ0xvdyBHbHljZW1pYyBJbmRleCAoR0kgNTQpIGZvciBzdXN0YWluZWQgYmxvb2Qgc3VnYXIgc3RhYmlsaXR5JyxcbiAgICAgICdIaWdoIGRpZXRhcnkgZmliZXIgKDhnIHBlciAxMDBnKSBhaWRzIGRpZ2VzdGl2ZSBtaWNyb2Jpb21lJyxcbiAgICAgICdSaWNoIGluIGJpb2F2YWlsYWJsZSBpcm9uLCBtYWduZXNpdW0sIGFuZCBkaWV0YXJ5IHppbmMnLFxuICAgICAgJ0dyb3duIHdpdGggNzAlIGxlc3Mgd2F0ZXIgdGhhbiB3aGl0ZSByaWNlJ1xuICAgIF0sXG4gICAgdGFzdGVOb3RlczogJ0VhcnRoeSwgc3VidGx5IHN3ZWV0LCBsaWdodCBmbHVmZnkgdGV4dHVyZSB3aGVuIHN0ZWFtZWQgb3Igc2ltbWVyZWQnLFxuICAgIHByb2Nlc3M6ICdUcmFkaXRpb25hbCBzdG9uZSBkZWh1c2tpbmcgdGhhdCByZXRhaW5zIG5hdHVyYWwgZ29sZGVuIHBlcmljYXJwIGFuZCB2aXRhbWluIEIgbWF0cml4LicsXG4gICAgbnV0cml0aW9uOiB7XG4gICAgICBjYWxvcmllczogJzM1MSBrY2FsIHBlciAxMDBnJyxcbiAgICAgIGtleU51dHJpZW50OiAnRGlldGFyeSBGaWJlcjogOC4wZycsXG4gICAgICBwdXJlRXh0cmFjdGlvbjogJ1VucG9saXNoZWQgc2luZ2xlLWh1bGwnXG4gICAgfSxcbiAgICBpblN0b2NrOiB0cnVlLFxuICAgIGZlYXR1cmVkOiB0cnVlXG4gIH0sXG4gIHtcbiAgICBpZDogJ21tLXNwaWNlcy0wMScsXG4gICAgbmFtZTogJ1N0b25lLUdyb3VuZCBMYWthZG9uZyBUdXJtZXJpYycsXG4gICAgc3VidGl0bGU6ICdIaWdoLXBvdGVuY3kgb3JnYW5pYyByb290IHdpdGggNy40JSBDdXJjdW1pbicsXG4gICAgY2F0ZWdvcnk6ICdzcGljZXMnLFxuICAgIGNhdGVnb3J5TGFiZWw6ICdXaWxkIFNwaWNlcycsXG4gICAgcHJpY2U6IDMyMCxcbiAgICBvcmlnaW5hbFByaWNlOiAzNTAsXG4gICAgdW5pdDogJzIwMCBnJyxcbiAgICByYXRpbmc6IDQuOSxcbiAgICByZXZpZXdzQ291bnQ6IDE2NSxcbiAgICBpbWFnZTogJy9zcmMvYXNzZXRzL2ltYWdlcy9zcGljZXNfc3RvbmVfZ3JvdW5kXzE3OTM2NTAyNTE4MDcuanBnJyxcbiAgICBvcmlnaW46ICdKYWludGlhIEhpbGxzLCBNZWdoYWxheWEnLFxuICAgIGZhcm1lcjogJ1N5bnR1IEtzaGlhciBXb21lbiBDb2xsZWN0aXZlJyxcbiAgICBoYXJ2ZXN0U2Vhc29uOiAnV2ludGVyIDIwMjUnLFxuICAgIGJhdGNoSWQ6ICdNTS1MS1QtMDlBJyxcbiAgICBjZXJ0aWZpY2F0aW9uczogWydJbmRpYSBPcmdhbmljJywgJ1Rlc3RlZCA3LjQlIEN1cmN1bWluJywgJ1plcm8gTGVhZC9DaHJvbWF0ZSddLFxuICAgIGRlc2NyaXB0aW9uOiAnQ3VsdGl2YXRlZCBpbiB0aGUgbWluZXJhbC1yaWNoIHNvaWxzIG9mIEphaW50aWEgSGlsbHMsIE1lZ2hhbGF5YS4gR3JvdW5kIG9uIHdhdGVybWlsbC1kcml2ZW4gc3RvbmUgY2hha2tpcyBhdCBjb2xkIHRlbXBlcmF0dXJlcyB0byBwcm90ZWN0IHRoZSB2b2xhdGlsZSBlc3NlbnRpYWwgb2lscyBhbmQgZXh0cmFvcmRpbmFyeSA3LjQlIG5hdHVyYWwgY3VyY3VtaW4gY29udGVudC4nLFxuICAgIGJlbmVmaXRzOiBbXG4gICAgICAnQ2VydGlmaWVkIDcuNCUgQ3VyY3VtaW4gY29udGVudCAodnMgMi0zJSBpbiBzdGFuZGFyZCB0dXJtZXJpYyknLFxuICAgICAgJ1N0b25lLWdyb3VuZCBhdCBsb3cgUlBNIHRvIHByZXZlbnQgdGhlcm1hbCBveGlkYXRpb24nLFxuICAgICAgJ1B1cmUgc2luZ2xlLW9yaWdpbiByb290OyB6ZXJvIGFydGlmaWNpYWwgY29sb3Igb3Igc3RhcmNoIGZpbGxlcnMnLFxuICAgICAgJ1BvdGVudCBjZWxsdWxhciBhbnRpLWluZmxhbW1hdG9yeSBhbmQgYW50aW94aWRhbnQgdG9uaWMnXG4gICAgXSxcbiAgICB0YXN0ZU5vdGVzOiAnSW50ZW5zZSBlYXJ0aHkgZnJhZ3JhbmNlLCBkZWVwIGdvbGRlbi1vcmFuZ2UgaHVlLCB3YXJtIGFyb21hdGljIGtpY2snLFxuICAgIHByb2Nlc3M6ICdTdW4tZHJpZWQgcmhpem9tZXMgc3RvbmUtcHVsdmVyaXplZCBzbG93bHkgd2l0aG91dCB0aGVybWFsIGZyaWN0aW9uLicsXG4gICAgbnV0cml0aW9uOiB7XG4gICAgICBjYWxvcmllczogJzI5IGtjYWwgcGVyIDEwZycsXG4gICAgICBrZXlOdXRyaWVudDogJ0N1cmN1bWlub2lkczogNy40JScsXG4gICAgICBwdXJlRXh0cmFjdGlvbjogJ0NvbGQgc3RvbmUtcHVsdmVyaXplZCdcbiAgICB9LFxuICAgIGluU3RvY2s6IHRydWUsXG4gICAgZmVhdHVyZWQ6IHRydWVcbiAgfSxcbiAge1xuICAgIGlkOiAnbW0tY2VyYW1pY3MtMDEnLFxuICAgIG5hbWU6ICdTcGVja2xlZCBTdG9uZXdhcmUgQ2hhaSBNdWcnLFxuICAgIHN1YnRpdGxlOiAnSGFuZC10aHJvd24gc3R1ZGlvIHBvdHRlcnkgd2l0aCBib3RhbmljYWwgbGVhZiBtb3RpZicsXG4gICAgY2F0ZWdvcnk6ICdjZXJhbWljcycsXG4gICAgY2F0ZWdvcnlMYWJlbDogJ0FydGlzYW5hbCBUYWJsZXdhcmUnLFxuICAgIHByaWNlOiA2ODAsXG4gICAgb3JpZ2luYWxQcmljZTogNzUwLFxuICAgIHVuaXQ6ICczMjAgbWwnLFxuICAgIHJhdGluZzogNS4wLFxuICAgIHJldmlld3NDb3VudDogMTEyLFxuICAgIGltYWdlOiAnL3NyYy9hc3NldHMvaW1hZ2VzL2hlcm9fY2VyYW1pY3Nfc3RpbGxfbGlmZV8xNzkzNjUxMDEzNTA1LmpwZycsXG4gICAgb3JpZ2luOiAnS2h1cmphICYgUG9uZGljaGVycnkgU3R1ZGlvJyxcbiAgICBmYXJtZXI6ICdNYXN0ZXIgUG90dGVyIEFuYW5kICYgQ29sbGVjdGl2ZScsXG4gICAgaGFydmVzdFNlYXNvbjogJ0tpbG4gQmF0Y2ggT2N0IDIwMjUnLFxuICAgIGJhdGNoSWQ6ICdNTS1TVE4tTVVHMDEnLFxuICAgIGNlcnRpZmljYXRpb25zOiBbJ0xlYWQtRnJlZSBHbGF6ZScsICdGb29kIFNhZmUnLCAnTWljcm93YXZlIFNhZmUnXSxcbiAgICBkZXNjcmlwdGlvbjogJ0VhY2ggbXVnIGlzIGluZGl2aWR1YWxseSB3aGVlbC10aHJvd24gZnJvbSBsb2NhbCBpcm9uLXJpY2ggc3RvbmV3YXJlIGNsYXksIGhhbmQtcGFpbnRlZCB3aXRoIGFuIGluZGlnZW5vdXMgbW9uc29vbiBsZWFmIGJydXNod29yaywgYW5kIGhpZ2gtZmlyZWQgYXQgMTI2MMKwQyBmb3IgZXhjZXB0aW9uYWwgZHVyYWJpbGl0eSBhbmQgdGFjdGlsZSB3YXJtdGguJyxcbiAgICBiZW5lZml0czogW1xuICAgICAgJ0hpZ2gtZmlyZWQgc3RvbmV3YXJlIHJldGFpbnMgYmV2ZXJhZ2Ugd2FybXRoIGxvbmdlcicsXG4gICAgICAnRXJnb25vbWljIGxvb3BlZCBoYW5kbGUgZGVzaWduZWQgZm9yIG1pbmRmdWwgbW9ybmluZyBzaXBwaW5nJyxcbiAgICAgICdGb29kLXNhZmUsIG5vbi10b3hpYywgbm9uLXBvcm91cyBtaW5lcmFsIGdsYXplJyxcbiAgICAgICdFdmVyeSBwaWVjZSBiZWFycyBzbGlnaHQgb3JnYW5pYyB2YXJpYXRpb25zIG9mIHRoZSBwb3R0ZXLigJlzIGhhbmQnXG4gICAgXSxcbiAgICB0YXN0ZU5vdGVzOiAnRWxldmF0ZXMgZXZlcnlkYXkgY2hhaSwgZmlsdGVyIGNvZmZlZSwgb3IgaGVyYmFsIGluZnVzaW9ucyBpbnRvIGEgcXVpZXQgcml0dWFsJyxcbiAgICBwcm9jZXNzOiAnSGFuZC1zaGFwZWQgb24gcG90dGVy4oCZcyB3aGVlbCwgYmlzcXVlIGZpcmVkLCBnbGF6ZWQgd2l0aCBuYXR1cmFsIHdvb2QtYXNoIHBpZ21lbnRzLCBmaXJlZCBhdCBDb25lIDYuJyxcbiAgICBudXRyaXRpb246IHtcbiAgICAgIGNhbG9yaWVzOiAnTi9BJyxcbiAgICAgIGtleU51dHJpZW50OiAnVGhlcm1hbCByZXRlbnRpb24gY2xheScsXG4gICAgICBwdXJlRXh0cmFjdGlvbjogJzEyNjDCsEMgSGlnaC1GaXJlJ1xuICAgIH0sXG4gICAgaW5TdG9jazogdHJ1ZSxcbiAgICBmZWF0dXJlZDogdHJ1ZVxuICB9LFxuICB7XG4gICAgaWQ6ICdtbS1vaWwtMDInLFxuICAgIG5hbWU6ICdDb2xkLVByZXNzZWQgVmlyZ2luIFNlc2FtZSBPaWwnLFxuICAgIHN1YnRpdGxlOiAnU2xvdyB3b29kLWNodXJuZWQgd2l0aCBvcmdhbmljIHBhbG0gamFnZ2VyeScsXG4gICAgY2F0ZWdvcnk6ICdvaWxzJyxcbiAgICBjYXRlZ29yeUxhYmVsOiAnQ29sZC1QcmVzc2VkIE9pbHMnLFxuICAgIHByaWNlOiA0NjAsXG4gICAgb3JpZ2luYWxQcmljZTogNDk1LFxuICAgIHVuaXQ6ICc1MDAgbWwnLFxuICAgIHJhdGluZzogNC44LFxuICAgIHJldmlld3NDb3VudDogNzYsXG4gICAgaW1hZ2U6ICcvc3JjL2Fzc2V0cy9pbWFnZXMvb2lsX2NvbGRfcHJlc3NlZF8xNzkzNjUwMjQ5NTQxLmpwZycsXG4gICAgb3JpZ2luOiAnRXJvZGUsIFRhbWlsIE5hZHUnLFxuICAgIGZhcm1lcjogJ1ZlbGxpYW5naXJpIE9yZ2FuaWMgR3Jvd2VycycsXG4gICAgaGFydmVzdFNlYXNvbjogJ1N1bW1lciBIYXJ2ZXN0IDIwMjUnLFxuICAgIGJhdGNoSWQ6ICdNTS1WU08tMTgnLFxuICAgIGNlcnRpZmljYXRpb25zOiBbJ0luZGlhIE9yZ2FuaWMnLCAnSmFpdmlrIEJoYXJhdCddLFxuICAgIGRlc2NyaXB0aW9uOiAnRXh0cmFjdGVkIGZyb20gYmxhY2sgc2VzYW1lIHNlZWRzIHVzaW5nIGluZGlnZW5vdXMgVmFhZ2FpIHdvb2QgcHJlc3NlcyB3aXRoIGEgaGludCBvZiBuYXR1cmFsIHBhbG0gamFnZ2VyeSB0byBtb2RlcmF0ZSBiaXR0ZXJuZXNzLCBhcyBkZXNjcmliZWQgaW4gY2xhc3NpY2FsIEF5dXJ2ZWRpYyB0ZXh0cy4nLFxuICAgIGJlbmVmaXRzOiBbXG4gICAgICAnUmljaCBpbiBzZXNhbW9sIGFuZCBzZXNhbW9saW4g4oCUIG5hdHVyYWwgcG90ZW50IGFudGlveGlkYW50cycsXG4gICAgICAnSGlnaCBzbW9rZSBwb2ludCBzdWl0YWJsZSBmb3IgdHJhZGl0aW9uYWwgdGVtcGVyaW5nIGFuZCBzYXV0ZWluZycsXG4gICAgICAnTm91cmlzaGluZyBmb3IgYm9uZSBkZW5zaXR5IGFuZCBqb2ludCBsdWJyaWNhdGlvbidcbiAgICBdLFxuICAgIHRhc3RlTm90ZXM6ICdEZWVwIG51dHR5IGZyYWdyYW5jZSB3aXRoIGEgZGVsaWNhdGUgY2FyYW1lbGl6ZWQgc2VzYW1lIHN3ZWV0bmVzcycsXG4gICAgcHJvY2VzczogJ1dvb2QtY2h1cm5lZCBleHRyYWN0aW9uIHdpdGggaGVpcmxvb20gdW5yZWZpbmVkIHBhbG0gamFnZ2VyeS4nLFxuICAgIG51dHJpdGlvbjoge1xuICAgICAgY2Fsb3JpZXM6ICcxMjAga2NhbCBwZXIgMTRtbCcsXG4gICAgICBrZXlOdXRyaWVudDogJ1Nlc2Ftb2wgQW50aW94aWRhbnRzJyxcbiAgICAgIHB1cmVFeHRyYWN0aW9uOiAnQ29sZCB3b29kLXByZXNzZWQnXG4gICAgfSxcbiAgICBpblN0b2NrOiB0cnVlXG4gIH0sXG4gIHtcbiAgICBpZDogJ21tLXNwaWNlcy0wMicsXG4gICAgbmFtZTogJ1dob2xlIFRlbGxpY2hlcnJ5IEJsYWNrIFBlcHBlcmNvcm5zJyxcbiAgICBzdWJ0aXRsZTogJ0V4dHJhLWJvbGQgVEdTRUIgZ3JhZGUgdmluZS1yaXBlbmVkIGJlcnJpZXMnLFxuICAgIGNhdGVnb3J5OiAnc3BpY2VzJyxcbiAgICBjYXRlZ29yeUxhYmVsOiAnV2lsZCBTcGljZXMnLFxuICAgIHByaWNlOiAyOTAsXG4gICAgb3JpZ2luYWxQcmljZTogMzMwLFxuICAgIHVuaXQ6ICcxNTAgZycsXG4gICAgcmF0aW5nOiA0LjksXG4gICAgcmV2aWV3c0NvdW50OiA5NCxcbiAgICBpbWFnZTogJy9zcmMvYXNzZXRzL2ltYWdlcy9zcGljZXNfc3RvbmVfZ3JvdW5kXzE3OTM2NTAyNTE4MDcuanBnJyxcbiAgICBvcmlnaW46ICdDb29yZywgS2FybmF0YWthJyxcbiAgICBmYXJtZXI6ICdHb3BhbGFuIFBsYW50YXRpb24gQ29sbGVjdGl2ZScsXG4gICAgaGFydmVzdFNlYXNvbjogJ1NwcmluZyAyMDI1JyxcbiAgICBiYXRjaElkOiAnTU0tVEJQLTA4JyxcbiAgICBjZXJ0aWZpY2F0aW9uczogWydJbmRpYSBPcmdhbmljJywgJ0ZhaXIgVHJhZGUgQ2VydGlmaWVkJ10sXG4gICAgZGVzY3JpcHRpb246ICdWaW5lLXJpcGVuZWQgdW50aWwgZnVsbHkgcGx1bXAsIGhhbmQtcGlja2VkIGFuZCBzdW4tZHJpZWQgb24gYmFtYm9vIG1hdHMgaW4gdGhlIG1pc3R5IFdlc3Rlcm4gR2hhdHMuIEV4dHJhLWJvbGQgNC43NW1tIGJlcnJpZXMgb2ZmZXJpbmcgdW5tYXRjaGVkIHBpcGVyaW5lIGludGVuc2l0eSBhbmQgY2l0cnVzIGZsb3JhbHMuJyxcbiAgICBiZW5lZml0czogW1xuICAgICAgJ0NvbnRhaW5zIDQuOCUgcGlwZXJpbmUgZm9yIG9wdGltYWwgdHVybWVyaWMgY3VyY3VtaW4gYWJzb3JwdGlvbicsXG4gICAgICAnV2hvbGUgYmVycmllcyBsb2NrIGluIHZvbGF0aWxlIGVzc2VudGlhbCBhcm9tYXRpYyB0ZXJwZW5lcycsXG4gICAgICAnR3Jvd24gaW4gYmlvZGl2ZXJzZSBzaGFkZSB1bmRlciBuYXRpdmUgc2lsdmVyIG9hayB0cmVlcydcbiAgICBdLFxuICAgIHRhc3RlTm90ZXM6ICdQdW5nZW50LCB3b29kc3kgaGVhdCBiYWxhbmNlZCBieSBjcmlzcCBldWNhbHlwdHVzIGFuZCBjaXRydXMgYXJvbWFzJyxcbiAgICBwcm9jZXNzOiAnU2hhZGUtZ3Jvd24sIGhhbmQtaGFydmVzdGVkIGF0IHBlYWsgbWF0dXJpdHksIHN1bi1jdXJlZCBuYXR1cmFsbHkuJyxcbiAgICBudXRyaXRpb246IHtcbiAgICAgIGNhbG9yaWVzOiAnMTcga2NhbCBwZXIgdHNwJyxcbiAgICAgIGtleU51dHJpZW50OiAnUGlwZXJpbmU6IDQuOCUnLFxuICAgICAgcHVyZUV4dHJhY3Rpb246ICdTdW4tZHJpZWQgd2hvbGUnXG4gICAgfSxcbiAgICBpblN0b2NrOiB0cnVlXG4gIH0sXG4gIHtcbiAgICBpZDogJ21tLWhhbXBlcnMtMDEnLFxuICAgIG5hbWU6ICdUaGUgTW9uc29vbiBIYXJ2ZXN0IEdpZnQgQm94JyxcbiAgICBzdWJ0aXRsZTogJ0N1cmF0ZWQgYXJ0aXNhbmFsIHBhbnRyeSBzdGFwbGVzICYgY2VyYW1pYyBrZWVwc2FrZScsXG4gICAgY2F0ZWdvcnk6ICdoYW1wZXJzJyxcbiAgICBjYXRlZ29yeUxhYmVsOiAnRmVzdGl2ZSBHaWZ0IEhhbXBlcnMnLFxuICAgIHByaWNlOiAyMjAwLFxuICAgIG9yaWdpbmFsUHJpY2U6IDI0NTAsXG4gICAgdW5pdDogJ0N1cmF0ZWQgSGFtcGVyJyxcbiAgICByYXRpbmc6IDUuMCxcbiAgICByZXZpZXdzQ291bnQ6IDY0LFxuICAgIGltYWdlOiAnL3NyYy9hc3NldHMvaW1hZ2VzL3BhY2thZ2luZ19sYWJlbF9tb2NrdXBfMTc5MzY1MDI1MTg3Ny5qcGcnLFxuICAgIG9yaWdpbjogJ0hhbmQtYXNzZW1ibGVkIGluIEJhbmdhbG9yZScsXG4gICAgZmFybWVyOiAnTXVsdGktY29vcGVyYXRpdmUgQXJ0aXNhbiBDb2xsYWJvcmF0aW9uJyxcbiAgICBoYXJ2ZXN0U2Vhc29uOiAnRmVzdGl2ZSBFZGl0aW9uIDIwMjUnLFxuICAgIGJhdGNoSWQ6ICdNTS1CT1gtSEFSVkVTVCcsXG4gICAgY2VydGlmaWNhdGlvbnM6IFsnWmVyby1QbGFzdGljIEJveCcsICcxMDAlIE9yZ2FuaWMgQ29udGVudHMnLCAnSGFuZG1hZGUgUGFja2FnaW5nJ10sXG4gICAgZGVzY3JpcHRpb246ICdPdXIgc2lnbmF0dXJlIGdpZnRpbmcgY29sbGVjdGlvbjogV2lsZCBGb3Jlc3QgSG9uZXkgKDM1MGcpLCBXb29kLVByZXNzZWQgTXVzdGFyZCBPaWwgKDUwMG1sKSwgTGFrYWRvbmcgVHVybWVyaWMgKDIwMGcpLCBhbmQgb3VyIGhhbmQtdGhyb3duIFNwZWNrbGVkIENlcmFtaWMgQ2hhaSBNdWcsIHBhY2thZ2VkIGluIGFuIHVuYmxlYWNoZWQgaGFuZG1hZGUga3JhZnQgY2hlc3QgdGllZCB3aXRoIG5hdHVyYWwganV0ZSBzdHJpbmcgYW5kIGRyaWVkIGJvdGFuaWNhbHMuJyxcbiAgICBiZW5lZml0czogW1xuICAgICAgJ1Rob3VnaHRmdWwsIGhlYWx0aHkgY29ycG9yYXRlIGFuZCBmZXN0aXZlIGNlbGVicmF0aW9uIGdpZnQnLFxuICAgICAgJ0luY2x1ZGVzIGhhbmR3cml0dGVuIHNlZWQtcGFwZXIgZ2lmdCBjYXJkIHRoYXQgYmxvb21zIGludG8gbWFyaWdvbGRzJyxcbiAgICAgICdTdXBwb3J0cyBmb3VyIHNlcGFyYXRlIHJ1cmFsIGZhcm1lciBhbmQgYXJ0aXNhbiBjb21tdW5pdGllcydcbiAgICBdLFxuICAgIHRhc3RlTm90ZXM6ICdUaGUgY29tcGxldGUgc2Vuc29yeSBleHBlcmllbmNlIG9mIGFuIG9yZ2FuaWMgSW5kaWFuIG1vbnNvb24ga2l0Y2hlbicsXG4gICAgcHJvY2VzczogJ0N1cmF0ZWQgd2l0aCB6ZXJvIHNpbmdsZS11c2UgcGxhc3RpY3MgaW4gYmlvZGVncmFkYWJsZSByZWNsYWltZWQgZmliZXIgYm94ZXMuJyxcbiAgICBudXRyaXRpb246IHtcbiAgICAgIGNhbG9yaWVzOiAnVmFyaWVzJyxcbiAgICAgIGtleU51dHJpZW50OiAnRm91ciBBcnRpc2FuYWwgSXRlbXMnLFxuICAgICAgcHVyZUV4dHJhY3Rpb246ICdBcnRpc2FuYWwgRW5zZW1ibGUnXG4gICAgfSxcbiAgICBpblN0b2NrOiB0cnVlLFxuICAgIGZlYXR1cmVkOiB0cnVlXG4gIH1cbl07XG5cbmV4cG9ydCBjb25zdCBDQVRFR09SSUVTID0gW1xuICB7IGlkOiAnYWxsJywgbGFiZWw6ICdBbGwgSGFydmVzdHMgJiBXYXJlcycsIGNvdW50OiA4IH0sXG4gIHsgaWQ6ICdvaWxzJywgbGFiZWw6ICdDb2xkLVByZXNzZWQgT2lscycsIGNvdW50OiAyIH0sXG4gIHsgaWQ6ICdob25leScsIGxhYmVsOiAnV2lsZCBGb3Jlc3QgSG9uZXknLCBjb3VudDogMSB9LFxuICB7IGlkOiAnbWlsbGV0cycsIGxhYmVsOiAnQW5jaWVudCBNaWxsZXRzICYgR3JhaW5zJywgY291bnQ6IDEgfSxcbiAgeyBpZDogJ3NwaWNlcycsIGxhYmVsOiAnU3RvbmUtR3JvdW5kIFNwaWNlcycsIGNvdW50OiAyIH0sXG4gIHsgaWQ6ICdjZXJhbWljcycsIGxhYmVsOiAnSGFuZGNyYWZ0ZWQgQ2VyYW1pY3MnLCBjb3VudDogMSB9LFxuICB7IGlkOiAnaGFtcGVycycsIGxhYmVsOiAnQ3VyYXRlZCBHaWZ0IEhhbXBlcnMnLCBjb3VudDogMSB9XG5dO1xuIl19

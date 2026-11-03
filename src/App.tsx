@@ -29,9 +29,6 @@ export default function App() {
   const [cartOpen, setCartOpen] = useState<boolean>(false);
   const [searchOpen, setSearchOpen] = useState<boolean>(false);
   const [authOpen, setAuthOpen] = useState<boolean>(false);
-  const [miniKitOpen, setMiniKitOpen] = useState<boolean>(false);
-  const [designNoteOpen, setDesignNoteOpen] = useState<boolean>(false);
-  const [mernStatusOpen, setMernStatusOpen] = useState<boolean>(false);
   const [trackingOpen, setTrackingOpen] = useState<boolean>(false);
   const [trackingOrderId, setTrackingOrderId] = useState<string>('MM-ORD-4192');
   const [bannerVisible, setBannerVisible] = useState<boolean>(true);
