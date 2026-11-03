@@ -175,23 +175,23 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Quick links for Candidate Assessment deliverables */}
           <div className="h-4 w-[1px] bg-[#D8D2C4] hidden xl:block"></div>
           
-          <button
+          {/* <button
             onClick={onOpenMiniKit}
             className="hidden xl:flex items-center gap-1.5 text-xs tracking-wider uppercase text-[#5A634E] hover:text-[#292A28] font-medium transition-colors"
             title="View Brand Mini-Kit (Assignment Deliverable B)"
           >
             <Layers className="w-3.5 h-3.5" />
             <span>Brand Kit</span>
-          </button>
+          </button> */}
 
-          <button
+          {/* <button
             onClick={onOpenDesignNote}
             className="hidden xl:flex items-center gap-1.5 text-xs tracking-wider uppercase text-[#885A3B] hover:text-[#292A28] font-medium transition-colors"
             title="View Design Rationale Note (Assignment Deliverable C)"
           >
             <BookOpen className="w-3.5 h-3.5" />
             <span>Design Note</span>
-          </button>
+          </button> */}
         </nav>
 
         {/* Action Icons Zone */}
