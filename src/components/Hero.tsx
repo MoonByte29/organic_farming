@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, ArrowRight, Sprout, ShieldCheck, CloudRain } from 'lucide-react';
+import CeramicsHeroImage from '../assets/images/hero_ceramics_still_life_1793651013505.jpg';
+import OilsHoneyHeroImage from '../assets/images/hero_organic_harvest_1793651015582.jpg';
+import MilletsGrainsHeroImage from '../assets/images/millets_heritage_grains_1793650250177.jpg';
+import SpicesHeroImage from '../assets/images/spices_stone_ground_1793650251807.jpg';
 
 interface HeroProps {
   onShopClick: () => void;
@@ -20,7 +24,7 @@ export const Hero: React.FC<HeroProps> = ({ onShopClick, onStoryClick }) => {
       subtext: 'Handcrafted ceramics, home décor and lifestyle pieces inspired by nature, soil and the monsoon.',
       ctaPrimary: 'Shop the Collection',
       ctaSecondary: 'Our Story',
-      image: '/src/assets/images/hero_ceramics_still_life_1793651013505.jpg',
+      image: CeramicsHeroImage,
       badge: 'Ceramic Studio',
       feature1: 'Handcrafted with care',
       feature2: 'Sustainable materials',
@@ -35,7 +39,7 @@ export const Hero: React.FC<HeroProps> = ({ onShopClick, onStoryClick }) => {
       subtext: 'Mara Chekku wood-pressed oils and wild canopy raw honey harvested in harmony with seasonal rhythms.',
       ctaPrimary: 'Explore Organic Pantry',
       ctaSecondary: 'Meet Our Farmers',
-      image: '/src/assets/images/hero_organic_harvest_1793651015582.jpg',
+      image: OilsHoneyHeroImage,
       badge: 'Virgin Cold-Press',
       feature1: 'Wood-churned <38°C',
       feature2: 'Zero synthetic inputs',
@@ -50,7 +54,7 @@ export const Hero: React.FC<HeroProps> = ({ onShopClick, onStoryClick }) => {
       subtext: 'Drought-hardy heirloom foxtail and little millets cultivated by indigenous farming cooperatives across drylands.',
       ctaPrimary: 'Shop Ancient Grains',
       ctaSecondary: 'Seed-to-Shelf Story',
-      image: '/src/assets/images/millets_heritage_grains_1793650250177.jpg',
+      image: MilletsGrainsHeroImage,
       badge: 'Heirloom Harvest',
       feature1: 'High dietary fiber',
       feature2: 'Naturally low-GI',
@@ -65,7 +69,7 @@ export const Hero: React.FC<HeroProps> = ({ onShopClick, onStoryClick }) => {
       subtext: 'High-curcumin Lakadong turmeric and Tellicherry black peppercorns from misty shade-grown forest canopies.',
       ctaPrimary: 'Discover Spices',
       ctaSecondary: 'View Lab Reports',
-      image: '/src/assets/images/spices_stone_ground_1793650251807.jpg',
+      image: SpicesHeroImage,
       badge: '7.4% Curcumin',
       feature1: 'Cold watermill ground',
       feature2: 'Zero lead & starches',
