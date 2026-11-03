@@ -1,0 +1,17 @@
+[
+  {
+    "id": "user_chandni_01",
+    "phone": "9876543210",
+    "name": "Chandni Sharma",
+    "email": "chandni@mittimonsoon.in",
+    "loyaltySeeds": 420,
+    "level": "Soil Guardian",
+    "address": "Flat 402, Rainwood Palms, Indiranagar",
+    "city": "Bengaluru",
+    "pincode": "560038",
+    "ordersCount": 3,
+    "_id": "user_chandni_01",
+    "createdAt": "2026-11-03T08:31:20.958Z",
+    "updatedAt": "2026-11-03T08:31:20.958Z"
+  }
+]

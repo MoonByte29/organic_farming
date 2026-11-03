@@ -1,0 +1,156 @@
+[
+  {
+    "orderId": "MM-ORD-8821",
+    "customer": {
+      "fullName": "Chandni Sharma",
+      "phone": "9876543210",
+      "email": "chandni@mittimonsoon.in",
+      "address": "Flat 402, Rainwood Palms, 12th Main Indiranagar",
+      "pincode": "560038",
+      "city": "Bengaluru"
+    },
+    "items": [
+      {
+        "productId": "mm-oil-01",
+        "name": "Wood-Pressed Mustard Oil",
+        "price": 380,
+        "quantity": 2,
+        "unit": "500 ml"
+      },
+      {
+        "productId": "mm-honey-01",
+        "name": "Wild Forest Raw Honey",
+        "price": 540,
+        "quantity": 1,
+        "unit": "350 g"
+      }
+    ],
+    "subtotal": 1300,
+    "discount": 250,
+    "shippingFee": 0,
+    "totalAmount": 1050,
+    "paymentMethod": "upi",
+    "paymentStatus": "confirmed_prepaid",
+    "fulfillmentStatus": "delivered",
+    "carrier": "Blue Dart Climate Neutral Express",
+    "awbNumber": "BD-ECO-98214491",
+    "dispatchHub": "Alwar Bishnoi Farmer Co-op Hub, Rajasthan",
+    "createdAt": "2026-11-03T08:31:20.959Z",
+    "estimatedDelivery": "Delivered on Oct 28, 2025 · 02:45 PM",
+    "packagingType": "100% plastic-free unbleached kraft & amber glass",
+    "_id": "doc_1793694680959_0",
+    "updatedAt": "2026-11-03T08:31:20.959Z"
+  },
+  {
+    "orderId": "MM-ORD-4192",
+    "customer": {
+      "fullName": "Aditya Sen",
+      "phone": "9811223344",
+      "email": "aditya.sen@gmail.com",
+      "address": "B-14, Greenwoods Enclave, Viman Nagar",
+      "pincode": "411014",
+      "city": "Pune"
+    },
+    "items": [
+      {
+        "productId": "mm-spice-01",
+        "name": "Stone-Ground Lakadong Turmeric",
+        "price": 290,
+        "quantity": 2,
+        "unit": "200 g"
+      },
+      {
+        "productId": "mm-ceramic-01",
+        "name": "Hand-Thrown Terracotta Chai Mug",
+        "price": 460,
+        "quantity": 2,
+        "unit": "Pair of 2"
+      }
+    ],
+    "subtotal": 1500,
+    "discount": 0,
+    "shippingFee": 0,
+    "totalAmount": 1500,
+    "paymentMethod": "card",
+    "paymentStatus": "confirmed_prepaid",
+    "fulfillmentStatus": "out_for_delivery",
+    "carrier": "Delhivery Green EV Fleet",
+    "awbNumber": "DEL-ECO-41928372",
+    "dispatchHub": "Syntu Kshiar Hub, Jaintia Hills & Khurja",
+    "createdAt": "2026-11-03T08:31:20.959Z",
+    "estimatedDelivery": "Arriving Today by 06:00 PM",
+    "packagingType": "100% plastic-free unbleached kraft & molded pulp",
+    "_id": "doc_1793694680959_1",
+    "updatedAt": "2026-11-03T08:31:20.959Z"
+  },
+  {
+    "orderId": "MM-ORD-2508",
+    "customer": {
+      "fullName": "Dr. Meera Iyer",
+      "phone": "9845012345",
+      "email": "meera.iyer@healthorg.in",
+      "address": "Villa 7, Palm Meadows, Whitefield",
+      "pincode": "560066",
+      "city": "Bengaluru"
+    },
+    "items": [
+      {
+        "productId": "mm-millet-01",
+        "name": "Heirloom Foxtail Millet",
+        "price": 240,
+        "quantity": 3,
+        "unit": "1 kg"
+      }
+    ],
+    "subtotal": 720,
+    "discount": 0,
+    "shippingFee": 0,
+    "totalAmount": 720,
+    "paymentMethod": "upi",
+    "paymentStatus": "confirmed_prepaid",
+    "fulfillmentStatus": "in_transit",
+    "carrier": "Blue Dart Climate Neutral Express",
+    "awbNumber": "BD-ECO-25089104",
+    "dispatchHub": "Bundelkhand Farmer Federation Hub, MP",
+    "createdAt": "2026-11-03T08:31:20.959Z",
+    "estimatedDelivery": "Expected in 2 days",
+    "packagingType": "100% plastic-free breathable cotton pouch",
+    "_id": "doc_1793694680959_2",
+    "updatedAt": "2026-11-03T08:31:20.959Z"
+  },
+  {
+    "orderId": "MM-ORD-1049",
+    "customer": {
+      "fullName": "Rohan Deshmukh",
+      "phone": "9920194857",
+      "email": "rohan.d@studio.in",
+      "address": "Penthouse 12, Highline Towers, Worli",
+      "pincode": "400018",
+      "city": "Mumbai"
+    },
+    "items": [
+      {
+        "productId": "mm-oil-02",
+        "name": "Cold-Pressed Sesame (Til) Oil",
+        "price": 420,
+        "quantity": 1,
+        "unit": "500 ml"
+      }
+    ],
+    "subtotal": 420,
+    "discount": 0,
+    "shippingFee": 99,
+    "totalAmount": 519,
+    "paymentMethod": "cod",
+    "paymentStatus": "pending_on_delivery",
+    "fulfillmentStatus": "packed",
+    "carrier": "Pending Courier Pickup",
+    "awbNumber": "GEN-PKG-104982",
+    "dispatchHub": "Saurashtra Cold-Press Collective, Gujarat",
+    "createdAt": "2026-11-03T08:31:20.959Z",
+    "estimatedDelivery": "Expected in 3-4 business days",
+    "packagingType": "UV-safe amber glass bottle & straw cushioning",
+    "_id": "doc_1793694680959_3",
+    "updatedAt": "2026-11-03T08:31:20.959Z"
+  }
+]

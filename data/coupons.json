@@ -1,0 +1,32 @@
+[
+  {
+    "code": "MONSOON250",
+    "discountAmount": 250,
+    "minOrderAmount": 999,
+    "description": "₹250 off on first harvest orders above ₹999",
+    "isActive": true,
+    "_id": "doc_1793694680957_0",
+    "createdAt": "2026-11-03T08:31:20.957Z",
+    "updatedAt": "2026-11-03T08:31:20.957Z"
+  },
+  {
+    "code": "HARVEST10",
+    "discountPercent": 10,
+    "minOrderAmount": 500,
+    "description": "10% off on all seasonal single-estate orders",
+    "isActive": true,
+    "_id": "doc_1793694680957_1",
+    "createdAt": "2026-11-03T08:31:20.957Z",
+    "updatedAt": "2026-11-03T08:31:20.957Z"
+  },
+  {
+    "code": "EARTH50",
+    "discountAmount": 50,
+    "minOrderAmount": 350,
+    "description": "₹50 off for eco-friendly return containers",
+    "isActive": true,
+    "_id": "doc_1793694680957_2",
+    "createdAt": "2026-11-03T08:31:20.957Z",
+    "updatedAt": "2026-11-03T08:31:20.957Z"
+  }
+]

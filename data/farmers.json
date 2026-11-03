@@ -1,0 +1,62 @@
+[
+  {
+    "id": "farmer-1",
+    "name": "Devender & Sunita Bishnoi",
+    "region": "Alwar Foothills",
+    "state": "Rajasthan",
+    "crop": "Indigenous Yellow Mustard & Sesame",
+    "farmingMethod": "Natural Zero-Budget Spiritual Farming",
+    "experienceYears": 24,
+    "quote": "The soil is not an inert substrate; it is our mother that drinks the first rain.",
+    "story": "Third-generation guardians of a 14-acre rainfed farm. Converted to zero synthetic chemicals in 2011.",
+    "hectaresRegenerated": 5.6,
+    "_id": "farmer-1",
+    "createdAt": "2026-11-03T08:31:20.954Z",
+    "updatedAt": "2026-11-03T08:31:20.954Z"
+  },
+  {
+    "id": "farmer-2",
+    "name": "Shanti Devi",
+    "region": "Bundelkhand Drylands",
+    "state": "Madhya Pradesh",
+    "crop": "Heirloom Foxtail & Little Millets",
+    "farmingMethod": "Dryland Rainfed Polyculture with Intercropped Pulses",
+    "experienceYears": 31,
+    "quote": "Millets remember when rain was scarce. They ask for nothing except our love and one monsoonal cloud.",
+    "story": "Shanti leads a 60-women farmer self-help group conserving native drought-tolerant millet landraces.",
+    "hectaresRegenerated": 28.4,
+    "_id": "farmer-2",
+    "createdAt": "2026-11-03T08:31:20.954Z",
+    "updatedAt": "2026-11-03T08:31:20.954Z"
+  },
+  {
+    "id": "farmer-3",
+    "name": "Kattunayakan Tribal Guild",
+    "region": "Wayanad Canopy Forests",
+    "state": "Kerala",
+    "crop": "Wild Forest Raw Honey & Tellicherry Pepper",
+    "farmingMethod": "Ethno-Botanical Sustainable Forest Foraging",
+    "experienceYears": 40,
+    "quote": "We never harvest the entire hive. We take only the surplus comb after the bees have reared their young.",
+    "story": "Indigenous honey hunters scaling 80-foot rosewood trees without torches in the Western Ghats.",
+    "hectaresRegenerated": 82,
+    "_id": "farmer-3",
+    "createdAt": "2026-11-03T08:31:20.954Z",
+    "updatedAt": "2026-11-03T08:31:20.954Z"
+  },
+  {
+    "id": "farmer-4",
+    "name": "Master Anand & Studio Guild",
+    "region": "Khurja & Pondicherry",
+    "state": "Uttar Pradesh & Tamil Nadu",
+    "crop": "High-Fired Stoneware & Terracotta Vessels",
+    "farmingMethod": "Local Mineral Clay Hand-throwing & Wood-ash Glazing",
+    "experienceYears": 28,
+    "quote": "Clay is the earth cooled down. Storing oil or grain in a clay jar allows it to breathe.",
+    "story": "Anand collaborates with traditional potters to design ergonomic kitchen vessels.",
+    "hectaresRegenerated": 0,
+    "_id": "farmer-4",
+    "createdAt": "2026-11-03T08:31:20.954Z",
+    "updatedAt": "2026-11-03T08:31:20.954Z"
+  }
+]

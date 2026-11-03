@@ -1,0 +1,45 @@
+[
+  {
+    "batchId": "MM-WPO-25B",
+    "productName": "Wood-Pressed Mustard Oil",
+    "harvestDate": "February 2025",
+    "pressingDate": "March 2025",
+    "pressTemperature": "31.4°C (Certified Cold-Press)",
+    "acidValue": "0.28 (Standard max 4.0)",
+    "purityScore": "99.8%",
+    "leadCadmiumTested": "Zero detected (Below 0.01 ppm)",
+    "labReportUrl": "NABL Accredited Lab Ref #2025/MM-892",
+    "farmerGroup": "Alwar Bishnoi Organic Producer Co.",
+    "_id": "doc_1793694680956_0",
+    "createdAt": "2026-11-03T08:31:20.956Z",
+    "updatedAt": "2026-11-03T08:31:20.956Z"
+  },
+  {
+    "batchId": "MM-WFH-44G",
+    "productName": "Wild Forest Raw Honey",
+    "harvestDate": "January 2025",
+    "pollenCount": "28,400 grains / 10g (Rich Multi-floral)",
+    "moistureContent": "18.1% (Raw unheated)",
+    "sucroseContent": "1.2% (Zero inverted sugar syrups)",
+    "purityScore": "100% Raw Wild Nectar",
+    "labReportUrl": "NABL Accredited Lab Ref #2025/MM-314",
+    "farmerGroup": "Wayanad Indigenous Forest Trust",
+    "_id": "doc_1793694680956_1",
+    "createdAt": "2026-11-03T08:31:20.956Z",
+    "updatedAt": "2026-11-03T08:31:20.956Z"
+  },
+  {
+    "batchId": "MM-LKT-09A",
+    "productName": "Stone-Ground Lakadong Turmeric",
+    "harvestDate": "December 2024",
+    "millingDate": "January 2025",
+    "curcuminPercentage": "7.42% (Industry standard 2.0 - 2.5%)",
+    "leadChromateDetection": "Absent (Certified Negative)",
+    "purityScore": "99.9% Pure Rhizome",
+    "labReportUrl": "NABL Accredited Lab Ref #2025/MM-719",
+    "farmerGroup": "Syntu Kshiar Jaintia Hills Collective",
+    "_id": "doc_1793694680956_2",
+    "createdAt": "2026-11-03T08:31:20.956Z",
+    "updatedAt": "2026-11-03T08:31:20.956Z"
+  }
+]

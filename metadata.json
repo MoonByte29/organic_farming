@@ -1,0 +1,6 @@
+{
+  "name": "Mitti & Monsoon® — Organic Pantry & Handcrafted Earthenware",
+  "description": "Artisanal organic food and handcrafted ceramics born from India's soil and monsoon. Single-origin cold-pressed oils, raw forest honey, ancient millets, stone-ground spices, and hand-thrown tableware.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

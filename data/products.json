@@ -1,0 +1,323 @@
+[
+  {
+    "id": "mm-oil-01",
+    "name": "Wood-Pressed Mustard Oil",
+    "subtitle": "Mara Chekku extracted yellow mustard seed",
+    "category": "oils",
+    "categoryLabel": "Cold-Pressed Oils",
+    "price": 380,
+    "originalPrice": 420,
+    "unit": "500 ml",
+    "rating": 4.9,
+    "reviewsCount": 142,
+    "image": "/src/assets/images/oil_cold_pressed_1793650249541.jpg",
+    "origin": "Alwar, Rajasthan",
+    "farmer": "Devender & Sunita Bishnoi",
+    "harvestSeason": "Rabi Harvest 2025",
+    "batchId": "MM-WPO-25B",
+    "certifications": [
+      "India Organic",
+      "Jaivik Bharat",
+      "Non-GMO"
+    ],
+    "description": "Cold-pressed in slow-moving wooden Kolhus (Mara Chekku) below 38°C to retain natural pungency, essential allyl isothiocyanate, and heart-healthy monounsaturated fatty acids. Never refined, unbleached, and naturally settled.",
+    "benefits": [
+      "Rich in natural omega-3 and alpha-linolenic acids",
+      "Traditional kacchi ghani cold-press below 38°C preserves live enzymes",
+      "Naturally aromatic with pungent golden mustard hue",
+      "Zero mineral oils, chemical preservatives, or hexanes"
+    ],
+    "tasteNotes": "Bold, nutty, traditional mustard warmth with a clean peppery finish",
+    "process": "Sun-dried native yellow mustard seeds crushed in seasoned Vaagai wood pestles over 45 minutes.",
+    "nutrition": {
+      "calories": "124 kcal per 14ml",
+      "keyNutrient": "Omega-3 ALA: 1.1g",
+      "pureExtraction": "Single-pressed at 32°C"
+    },
+    "inStock": true,
+    "featured": true,
+    "_id": "mm-oil-01",
+    "createdAt": "2026-11-03T08:31:20.951Z",
+    "updatedAt": "2026-11-03T08:31:20.951Z"
+  },
+  {
+    "id": "mm-honey-01",
+    "name": "Wild Forest Raw Honey",
+    "subtitle": "Multi-floral nectar from Western Ghats canopies",
+    "category": "honey",
+    "categoryLabel": "Forest Honey",
+    "price": 540,
+    "originalPrice": 590,
+    "unit": "350 g",
+    "rating": 5,
+    "reviewsCount": 198,
+    "image": "/src/assets/images/honey_raw_forest_1793650250709.jpg",
+    "origin": "Wayanad, Kerala",
+    "farmer": "Kattunayakan Indigenous Foragers",
+    "harvestSeason": "Post-Monsoon Blossom 2025",
+    "batchId": "MM-WFH-44G",
+    "certifications": [
+      "Fair Wild",
+      "India Organic",
+      "Raw & Unpasteurized"
+    ],
+    "description": "Harvested ethically from wild Apis dorsata honeycombs high in the moist evergreen canopies of Wayanad. Unheated, micro-filtered through muslin cloth to preserve natural pollen, bee propolis, and live antioxidants.",
+    "benefits": [
+      "100% Raw and unheated — preserves active floral enzymes",
+      "Wild multi-floral nectar with medicinal bio-flavonoids",
+      "Ethically gathered without harming forest bee colonies",
+      "Bottled in UV-protective amber glass"
+    ],
+    "tasteNotes": "Complex caramel notes, forest wildflower sweetness, gentle herbal undertones",
+    "process": "Crush-free gravity draining through natural organic muslin; zero sugar feeding or heating.",
+    "nutrition": {
+      "calories": "64 kcal per tbsp",
+      "keyNutrient": "Bioactive Pollen: 3.2%",
+      "pureExtraction": "Raw gravity-strained"
+    },
+    "inStock": true,
+    "featured": true,
+    "_id": "mm-honey-01",
+    "createdAt": "2026-11-03T08:31:20.951Z",
+    "updatedAt": "2026-11-03T08:31:20.951Z"
+  },
+  {
+    "id": "mm-millets-01",
+    "name": "Heirloom Foxtail Millet (Kangni)",
+    "subtitle": "Ancient climate-resilient unpolished grain",
+    "category": "millets",
+    "categoryLabel": "Ancient Millets",
+    "price": 210,
+    "originalPrice": 240,
+    "unit": "1 kg",
+    "rating": 4.8,
+    "reviewsCount": 89,
+    "image": "/src/assets/images/millets_heritage_grains_1793650250177.jpg",
+    "origin": "Bundelkhand, Madhya Pradesh",
+    "farmer": "Shanti Devi Farmer Producer Co.",
+    "harvestSeason": "Kharif Harvest 2025",
+    "batchId": "MM-HAG-12F",
+    "certifications": [
+      "India Organic",
+      "Jaivik Bharat",
+      "Naturally Gluten-Free"
+    ],
+    "description": "Naturally drought-hardy heirloom foxtail millets grown using traditional dryland rainfed methods. Only dehusked once to preserve 100% of the nutrient-dense fibrous bran layer and germ.",
+    "benefits": [
+      "Low Glycemic Index (GI 54) for sustained blood sugar stability",
+      "High dietary fiber (8g per 100g) aids digestive microbiome",
+      "Rich in bioavailable iron, magnesium, and dietary zinc",
+      "Grown with 70% less water than white rice"
+    ],
+    "tasteNotes": "Earthy, subtly sweet, light fluffy texture when steamed or simmered",
+    "process": "Traditional stone dehusking that retains natural golden pericarp and vitamin B matrix.",
+    "nutrition": {
+      "calories": "351 kcal per 100g",
+      "keyNutrient": "Dietary Fiber: 8.0g",
+      "pureExtraction": "Unpolished single-hull"
+    },
+    "inStock": true,
+    "featured": true,
+    "_id": "mm-millets-01",
+    "createdAt": "2026-11-03T08:31:20.951Z",
+    "updatedAt": "2026-11-03T08:31:20.951Z"
+  },
+  {
+    "id": "mm-spices-01",
+    "name": "Stone-Ground Lakadong Turmeric",
+    "subtitle": "High-potency organic root with 7.4% Curcumin",
+    "category": "spices",
+    "categoryLabel": "Wild Spices",
+    "price": 320,
+    "originalPrice": 350,
+    "unit": "200 g",
+    "rating": 4.9,
+    "reviewsCount": 165,
+    "image": "/src/assets/images/spices_stone_ground_1793650251807.jpg",
+    "origin": "Jaintia Hills, Meghalaya",
+    "farmer": "Syntu Kshiar Women Collective",
+    "harvestSeason": "Winter 2025",
+    "batchId": "MM-LKT-09A",
+    "certifications": [
+      "India Organic",
+      "Tested 7.4% Curcumin",
+      "Zero Lead/Chromate"
+    ],
+    "description": "Cultivated in the mineral-rich soils of Jaintia Hills, Meghalaya. Ground on watermill-driven stone chakkis at cold temperatures to protect the volatile essential oils and extraordinary 7.4% natural curcumin content.",
+    "benefits": [
+      "Certified 7.4% Curcumin content (vs 2-3% in standard turmeric)",
+      "Stone-ground at low RPM to prevent thermal oxidation",
+      "Pure single-origin root; zero artificial color or starch fillers",
+      "Potent cellular anti-inflammatory and antioxidant tonic"
+    ],
+    "tasteNotes": "Intense earthy fragrance, deep golden-orange hue, warm aromatic kick",
+    "process": "Sun-dried rhizomes stone-pulverized slowly without thermal friction.",
+    "nutrition": {
+      "calories": "29 kcal per 10g",
+      "keyNutrient": "Curcuminoids: 7.4%",
+      "pureExtraction": "Cold stone-pulverized"
+    },
+    "inStock": true,
+    "featured": true,
+    "_id": "mm-spices-01",
+    "createdAt": "2026-11-03T08:31:20.951Z",
+    "updatedAt": "2026-11-03T08:31:20.951Z"
+  },
+  {
+    "id": "mm-ceramics-01",
+    "name": "Speckled Stoneware Chai Mug",
+    "subtitle": "Hand-thrown studio pottery with botanical leaf motif",
+    "category": "ceramics",
+    "categoryLabel": "Artisanal Tableware",
+    "price": 680,
+    "originalPrice": 750,
+    "unit": "320 ml",
+    "rating": 5,
+    "reviewsCount": 112,
+    "image": "/src/assets/images/hero_ceramics_still_life_1793651013505.jpg",
+    "origin": "Khurja & Pondicherry Studio",
+    "farmer": "Master Potter Anand & Collective",
+    "harvestSeason": "Kiln Batch Oct 2025",
+    "batchId": "MM-STN-MUG01",
+    "certifications": [
+      "Lead-Free Glaze",
+      "Food Safe",
+      "Microwave Safe"
+    ],
+    "description": "Each mug is individually wheel-thrown from local iron-rich stoneware clay, hand-painted with an indigenous monsoon leaf brushwork, and high-fired at 1260°C for exceptional durability and tactile warmth.",
+    "benefits": [
+      "High-fired stoneware retains beverage warmth longer",
+      "Ergonomic looped handle designed for mindful morning sipping",
+      "Food-safe, non-toxic, non-porous mineral glaze",
+      "Every piece bears slight organic variations of the potter’s hand"
+    ],
+    "tasteNotes": "Elevates everyday chai, filter coffee, or herbal infusions into a quiet ritual",
+    "process": "Hand-shaped on potter’s wheel, bisque fired, glazed with natural wood-ash pigments, fired at Cone 6.",
+    "nutrition": {
+      "calories": "N/A",
+      "keyNutrient": "Thermal retention clay",
+      "pureExtraction": "1260°C High-Fire"
+    },
+    "inStock": true,
+    "featured": true,
+    "_id": "mm-ceramics-01",
+    "createdAt": "2026-11-03T08:31:20.951Z",
+    "updatedAt": "2026-11-03T08:31:20.951Z"
+  },
+  {
+    "id": "mm-oil-02",
+    "name": "Cold-Pressed Virgin Sesame Oil",
+    "subtitle": "Slow wood-churned with organic palm jaggery",
+    "category": "oils",
+    "categoryLabel": "Cold-Pressed Oils",
+    "price": 460,
+    "originalPrice": 495,
+    "unit": "500 ml",
+    "rating": 4.8,
+    "reviewsCount": 76,
+    "image": "/src/assets/images/oil_cold_pressed_1793650249541.jpg",
+    "origin": "Erode, Tamil Nadu",
+    "farmer": "Velliangiri Organic Growers",
+    "harvestSeason": "Summer Harvest 2025",
+    "batchId": "MM-VSO-18",
+    "certifications": [
+      "India Organic",
+      "Jaivik Bharat"
+    ],
+    "description": "Extracted from black sesame seeds using indigenous Vaagai wood presses with a hint of natural palm jaggery to moderate bitterness, as described in classical Ayurvedic texts.",
+    "benefits": [
+      "Rich in sesamol and sesamolin — natural potent antioxidants",
+      "High smoke point suitable for traditional tempering and sauteing",
+      "Nourishing for bone density and joint lubrication"
+    ],
+    "tasteNotes": "Deep nutty fragrance with a delicate caramelized sesame sweetness",
+    "process": "Wood-churned extraction with heirloom unrefined palm jaggery.",
+    "nutrition": {
+      "calories": "120 kcal per 14ml",
+      "keyNutrient": "Sesamol Antioxidants",
+      "pureExtraction": "Cold wood-pressed"
+    },
+    "inStock": true,
+    "_id": "mm-oil-02",
+    "createdAt": "2026-11-03T08:31:20.951Z",
+    "updatedAt": "2026-11-03T08:31:20.951Z"
+  },
+  {
+    "id": "mm-spices-02",
+    "name": "Whole Tellicherry Black Peppercorns",
+    "subtitle": "Extra-bold TGSEB grade vine-ripened berries",
+    "category": "spices",
+    "categoryLabel": "Wild Spices",
+    "price": 290,
+    "originalPrice": 330,
+    "unit": "150 g",
+    "rating": 4.9,
+    "reviewsCount": 94,
+    "image": "/src/assets/images/spices_stone_ground_1793650251807.jpg",
+    "origin": "Coorg, Karnataka",
+    "farmer": "Gopalan Plantation Collective",
+    "harvestSeason": "Spring 2025",
+    "batchId": "MM-TBP-08",
+    "certifications": [
+      "India Organic",
+      "Fair Trade Certified"
+    ],
+    "description": "Vine-ripened until fully plump, hand-picked and sun-dried on bamboo mats in the misty Western Ghats. Extra-bold 4.75mm berries offering unmatched piperine intensity and citrus florals.",
+    "benefits": [
+      "Contains 4.8% piperine for optimal turmeric curcumin absorption",
+      "Whole berries lock in volatile essential aromatic terpenes",
+      "Grown in biodiverse shade under native silver oak trees"
+    ],
+    "tasteNotes": "Pungent, woodsy heat balanced by crisp eucalyptus and citrus aromas",
+    "process": "Shade-grown, hand-harvested at peak maturity, sun-cured naturally.",
+    "nutrition": {
+      "calories": "17 kcal per tsp",
+      "keyNutrient": "Piperine: 4.8%",
+      "pureExtraction": "Sun-dried whole"
+    },
+    "inStock": true,
+    "_id": "mm-spices-02",
+    "createdAt": "2026-11-03T08:31:20.951Z",
+    "updatedAt": "2026-11-03T08:31:20.951Z"
+  },
+  {
+    "id": "mm-hampers-01",
+    "name": "The Monsoon Harvest Gift Box",
+    "subtitle": "Curated artisanal pantry staples & ceramic keepsake",
+    "category": "hampers",
+    "categoryLabel": "Festive Gift Hampers",
+    "price": 2200,
+    "originalPrice": 2450,
+    "unit": "Curated Hamper",
+    "rating": 5,
+    "reviewsCount": 64,
+    "image": "/src/assets/images/packaging_label_mockup_1793650251877.jpg",
+    "origin": "Hand-assembled in Bangalore",
+    "farmer": "Multi-cooperative Artisan Collaboration",
+    "harvestSeason": "Festive Edition 2025",
+    "batchId": "MM-BOX-HARVEST",
+    "certifications": [
+      "Zero-Plastic Box",
+      "100% Organic Contents",
+      "Handmade Packaging"
+    ],
+    "description": "Our signature gifting collection: Wild Forest Honey (350g), Wood-Pressed Mustard Oil (500ml), Lakadong Turmeric (200g), and our hand-thrown Speckled Ceramic Chai Mug, packaged in an unbleached handmade kraft chest tied with natural jute string and dried botanicals.",
+    "benefits": [
+      "Thoughtful, healthy corporate and festive celebration gift",
+      "Includes handwritten seed-paper gift card that blooms into marigolds",
+      "Supports four separate rural farmer and artisan communities"
+    ],
+    "tasteNotes": "The complete sensory experience of an organic Indian monsoon kitchen",
+    "process": "Curated with zero single-use plastics in biodegradable reclaimed fiber boxes.",
+    "nutrition": {
+      "calories": "Varies",
+      "keyNutrient": "Four Artisanal Items",
+      "pureExtraction": "Artisanal Ensemble"
+    },
+    "inStock": true,
+    "featured": true,
+    "_id": "mm-hampers-01",
+    "createdAt": "2026-11-03T08:31:20.951Z",
+    "updatedAt": "2026-11-03T08:31:20.951Z"
+  }
+]
