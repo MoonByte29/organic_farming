@@ -11,7 +11,7 @@ export const FARMERS: FarmerProfile[] = [
     experienceYears: 24,
     quote: 'The soil is not an inert substrate; it is our mother that drinks the first rain. When we press oil cold in seasoned wood, its fragrance tells the tale of our land.',
     story: 'Third-generation guardians of a 14-acre rainfed farm. In 2011, Devender transitioned away from synthetic chemicals entirely, restoring earthworm colonies and native nitrogen-fixing leguminous trees.',
-    image: '/src/assets/images/oil_cold_pressed_1793650249541.jpg',
+    image: '/assets/images/oil_cold_pressed_1793650249541.jpg',
     hectaresRegenerated: 5.6
   },
   {
@@ -24,7 +24,7 @@ export const FARMERS: FarmerProfile[] = [
     experienceYears: 31,
     quote: 'Millets remember when rain was scarce. They ask for nothing except our love and one monsoonal cloud. They heal the body as they heal the soil.',
     story: 'Shanti leads a 60-women farmer self-help group conserving native drought-tolerant millet landraces that were almost lost to monoculture wheat.',
-    image: '/src/assets/images/millets_heritage_grains_1793650250177.jpg',
+    image: '/assets/images/millets_heritage_grains_1793650250177.jpg',
     hectaresRegenerated: 28.4
   },
   {
@@ -37,7 +37,7 @@ export const FARMERS: FarmerProfile[] = [
     experienceYears: 40,
     quote: 'We never harvest the entire hive. We take only the surplus comb after the bees have reared their young. Forest spirits bless those who take with respect.',
     story: 'Indigenous honey hunters of the Western Ghats canopy who scale 80-foot high rosewood trees at dusk without smoke torches to harvest wild multi-floral nectar.',
-    image: '/src/assets/images/honey_raw_forest_1793650250709.jpg',
+    image: '/assets/images/honey_raw_forest_1793650250709.jpg',
     hectaresRegenerated: 82.0
   },
   {
@@ -50,7 +50,7 @@ export const FARMERS: FarmerProfile[] = [
     experienceYears: 28,
     quote: 'Clay is the earth cooled down. Storing oil or grain in a clay jar allows it to breathe, keeping it alive exactly as it was on the field.',
     story: 'Anand collaborates with traditional potters to design ergonomic kitchen vessels, spice pots, and chai mugs glazed with non-toxic lead-free wood-ash minerals.',
-    image: '/src/assets/images/hero_ceramics_still_life_1793651013505.jpg',
+    image: '/assets/images/hero_ceramics_still_life_1793651013505.jpg',
     hectaresRegenerated: 0
   }
 ];

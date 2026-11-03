@@ -19,7 +19,7 @@ export const SeedToShelf: React.FC = () => {
         'Companion planting with marigold and legumes for organic pest repellent',
         'Living soils with 3.8x higher microbial biomass than conventional land'
       ],
-      image: '/src/assets/images/millets_heritage_grains_1793650250177.jpg'
+      image: '/assets/images/millets_heritage_grains_1793650250177.jpg'
     },
     {
       id: 'step-2',
@@ -35,7 +35,7 @@ export const SeedToShelf: React.FC = () => {
         'Hand-sorted to remove damaged seeds or foreign matter',
         'Sunlight natural UV sterilization'
       ],
-      image: '/src/assets/images/spices_stone_ground_1793650251807.jpg'
+      image: '/assets/images/spices_stone_ground_1793650251807.jpg'
     },
     {
       id: 'step-3',
@@ -51,7 +51,7 @@ export const SeedToShelf: React.FC = () => {
         'Natural decantation over 72 hours without artificial centrifugal bleaching',
         'Retains 100% natural vitamin E, sesame lignans, and pungent polyphenols'
       ],
-      image: '/src/assets/images/oil_cold_pressed_1793650249541.jpg'
+      image: '/assets/images/oil_cold_pressed_1793650249541.jpg'
     },
     {
       id: 'step-4',
@@ -67,7 +67,7 @@ export const SeedToShelf: React.FC = () => {
         'Seed-paper packaging tags that bloom into wild marigolds when planted',
         'Carbon-neutral courier distribution to every pin code across India'
       ],
-      image: '/src/assets/images/packaging_label_mockup_1793650251877.jpg'
+      image: '/assets/images/packaging_label_mockup_1793650251877.jpg'
     }
   ];
 
