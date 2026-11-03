@@ -11,7 +11,7 @@ export const AuthDialog: React.FC<AuthDialogProps> = ({ isOpen, onClose }) => {
   const [phoneNumber, setPhoneNumber] = useState('9876543210');
   const [otpSent, setOtpSent] = useState(false);
   const [otp, setOtp] = useState('');
-  const [demoCode, setDemoCode] = useState<string>('1234');
+  const [demoCode, setDemoCode] = useState<string>('');
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
   const [userProfile, setUserProfile] = useState<UserProfile | null>(null);
@@ -31,11 +31,18 @@ export const AuthDialog: React.FC<AuthDialogProps> = ({ isOpen, onClose }) => {
 
   const handleSendOtp = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (phoneNumber.length < 10) return;
+    const cleanPhone = phoneNumber.replace(/\D/g, '');
+    if (cleanPhone.length !== 10) {
+      setErrorMsg('Enter a valid 10-digit mobile number.');
+      return;
+    }
+
     setLoading(true);
     setErrorMsg('');
+    setOtp('');
+    setDemoCode('');
     try {
-      const res = await apiService.sendOtp(phoneNumber);
+      const res = await apiService.sendOtp(cleanPhone);
       if (res.success) {
         setOtpSent(true);
         if (res.demoCode) {
@@ -44,9 +51,8 @@ export const AuthDialog: React.FC<AuthDialogProps> = ({ isOpen, onClose }) => {
       } else {
         setErrorMsg(res.message || 'Failed to send OTP');
       }
-    } catch (err: any) {
-      // Fallback
-      setOtpSent(true);
+    } catch {
+      setErrorMsg('Could not reach the OTP service. Make sure the app server is running, then try again.');
     } finally {
       setLoading(false);
     }
@@ -54,18 +60,23 @@ export const AuthDialog: React.FC<AuthDialogProps> = ({ isOpen, onClose }) => {
 
   const handleVerifyOtp = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!otp) return;
+    const cleanOtp = otp.replace(/\D/g, '');
+    if (cleanOtp.length !== 4) {
+      setErrorMsg('Enter the 4-digit code shown above.');
+      return;
+    }
+
     setLoading(true);
     setErrorMsg('');
     try {
-      const res = await apiService.verifyOtp(phoneNumber, otp);
+      const res = await apiService.verifyOtp(phoneNumber.replace(/\D/g, ''), cleanOtp);
       if (res.success && res.user) {
         setUserProfile(res.user);
       } else {
         setErrorMsg(res.message || 'Invalid OTP');
       }
-    } catch (err: any) {
-      setErrorMsg('Verification failed. Try code 1234.');
+    } catch {
+      setErrorMsg('Could not reach the authentication server. Check that the app server is running, then try again.');
     } finally {
       setLoading(false);
     }
@@ -246,7 +257,7 @@ export const AuthDialog: React.FC<AuthDialogProps> = ({ isOpen, onClose }) => {
                   autoFocus
                   required
                   value={otp}
-                  onChange={(e) => setOtp(e.target.value)}
+                  onChange={(e) => setOtp(e.target.value.replace(/\D/g, '').slice(0, 4))}
                   placeholder="1234"
                   className="w-full text-center tracking-[1em] text-xl font-mono py-3 bg-white border border-[#DDD5C6] rounded-xl focus:border-[#38432B] focus:outline-none"
                 />
