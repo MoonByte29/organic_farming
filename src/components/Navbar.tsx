@@ -173,7 +173,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           </button>
 
           {/* Quick links for Candidate Assessment deliverables */}
-          <div className="h-4 w-[1px] bg-[#D8D2C4] hidden xl:block"></div>
+          {/* <div className="h-4 w-[1px] bg-[#D8D2C4] hidden xl:block"></div> */}
           
           {/* <button
             onClick={onOpenMiniKit}
