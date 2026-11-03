@@ -1,5 +1,7 @@
 import React from 'react';
 import { X, Layers, Palette, Type, Package, Check, Download } from 'lucide-react';
+import PackingLable from 'src/assets/images/packaging_label_mockup_1793650251877.jpg';
+import GlassBottle from 'src/assets/images/oil_cold_pressed_1793650249541.jpg';
 
 interface BrandMiniKitModalProps {
   isOpen: boolean;
@@ -221,7 +223,7 @@ export const BrandMiniKitModal: React.FC<BrandMiniKitModalProps> = ({ isOpen, on
                 <div>
                   <div className="rounded-xl overflow-hidden aspect-[4/3] bg-[#F2EDE2] mb-4 border border-[#E5DFD1]">
                     <img
-                      src="/src/assets/images/packaging_label_mockup_1793650251877.jpg"
+                      src={PackingLable}
                       alt="Sample Pouch Packaging"
                       className="w-full h-full object-cover"
                       referrerPolicy="no-referrer"
@@ -247,7 +249,7 @@ export const BrandMiniKitModal: React.FC<BrandMiniKitModalProps> = ({ isOpen, on
                 <div>
                   <div className="rounded-xl overflow-hidden aspect-[4/3] bg-[#F2EDE2] mb-4 border border-[#E5DFD1]">
                     <img
-                      src="/src/assets/images/oil_cold_pressed_1793650249541.jpg"
+                      src= {GlassBottle}
                       alt="Sample Glass Bottle Packaging"
                       className="w-full h-full object-cover"
                       referrerPolicy="no-referrer"
